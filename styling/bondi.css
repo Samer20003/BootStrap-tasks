@@ -1,0 +1,30 @@
+:root{
+    --dark-color:#19283f;
+    --green-color:#19283f;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+   
+  
+}
+
+/* start navbar */
+/* .navbar{
+    background-color: var(--dark-color);
+} */
+
+.landing{
+    min-height: 100vh;
+}
+
+.main-title::after{
+    content: '';
+    width: 120px;
+    height: 2px;
+    background-color:var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
